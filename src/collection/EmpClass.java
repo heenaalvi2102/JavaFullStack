@@ -35,6 +35,8 @@ public class EmpClass implements Comparable<EmpClass>{
     public int compareTo(EmpClass empClass) {
         if (this.id == empClass.id) {
             return 0;
+
+
         }else if (this.id > empClass.id){
             return 6;
         }else {
