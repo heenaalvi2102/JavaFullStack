@@ -31,18 +31,24 @@ public class EmpClass implements Comparable<EmpClass>{
     }
 
 
+//    @Override
+//    public int compareTo(EmpClass empClass) {
+//        if (this.id == empClass.id) {
+//            return 0;
+//
+//
+//        }else if (this.id > empClass.id){
+//            return 6;
+//        }else {
+//            return -12;
+//
+//
+//        }
+//    }
     @Override
-    public int compareTo(EmpClass empClass) {
-        if (this.id == empClass.id) {
-            return 0;
-
-
-        }else if (this.id > empClass.id){
-            return 6;
-        }else {
-            return -12;
-
-
-        }
+    public int compareTo(EmpClass empClass){
+        return this.name.compareTo(empClass.name);
     }
 }
+
+
