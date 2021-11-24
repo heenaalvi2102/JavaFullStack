@@ -12,7 +12,6 @@ public class StringDemo {
         String str2 = "Pune";//0
         String str3 = new String("pune");//1
         String str4 = new String(arr);//1
-
         System.out.println(str==str1); //false   // reference
         System.out.println(str.equalsIgnoreCase(str1));//true //content   //ignore case
     }
